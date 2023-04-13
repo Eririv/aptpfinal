@@ -167,31 +167,83 @@
                     <div class="col align-self-center ">
                         <h2 class="display-6 fs-6 ">CONVIERTETE EN UN <span class="fs-1" style="display: block;">CLIENTE
                             </span></h2>
-
-                        <p>Dejanos tus datos para que <abbr title="attribute">podamos contactarte</abbr> . Contanos que
-                            quieres comprar! </p>
                     </div>
                 </div>
-                <form>
+                
 
+<!-- MULTI STEP FORM -->
+<!-- <div class="container">
+    <p class="display-2">Contacto</p>
+    <section id="multistep" class="row">
+      <div class="col-sm-10 col-md-8 col-lg-6"> -->
 
-                    <div class="row ">
-                        <div class="col p-1">
-                            <input type="text" class="form-control" id="inputNombre" placeholder="Nombre">
-                        </div>
-                        <div class="col p-1">
-                            <input type="text" class="form-control" id="inputApellido" placeholder="Apellido">
-                        </div>
-                    </div>
-                    <div class="row p-1">
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
-                            placeholder="Sobre que quieres consultar?"></textarea>
-                        <label for="exampleFormControlTextarea1" class="text-muted">Input with value</label>
-                        <button type="button" class="btn btn-success">Enviar</button>
-                    </div>
-                </form>
+        <!-- step 1 -->
+        <!-- <form id="step1">
+          <fieldset>
+            <legend class="mb-5 text-center">1/3 ¿Qué te gustaría comprar? ¡Contanos!</legend>
+            <div class="mb-3">
+              <label for="email" class="form-label">Correo electrónico</label>
+              <input type="email" id="email" class="form-control" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">Tus datos no se compartirán con terceros.</div>
             </div>
-        </section>
+            <div class="mb-3">
+              <label for="phone">Teléfono</label>
+              <input type="tel" id="phone" class="form-control">
+            </div>
+            <div class="mb-3">
+              <label for="fullName" class="form-label">Nombre y Apellido</label>
+              <input type="text" class="form-control" id="fullName">
+            </div>
+          </fieldset>
+          <div>
+            <button id="btn-next-form1" type="button" class="btn-form btn btn-outline-dark">Siguiente</button>
+          </div>
+        </form> -->
+
+        <!-- step 2 -->
+
+        <form id="step2" class="d-none">
+          <fieldset>
+            <legend class="mb-5 text-center">2/3 ¿Qué necesita?</legend>
+            <div class="mb-3">
+              <label for="location" class="form-label">Cuentanos un poco más</label>
+              <input type="text" id="location" class="form-control" aria-describedby="locationHelp"
+                placeholder="País, estado o provincia, localidad...">
+              <div id="locationHelp" class="form-text">Indique color y cantidad</div>
+            </div>
+            <div class="mb-3">
+              <label for="graffitiFile" class="form-label">¿Desea adjuntar una foto de muestra?</label>
+              <input type="file" id="graffitiFile" class="form-control">
+            </div>
+            <div class="mb-3">
+              <label for="extraInfo">Información adicional</label>
+              <textarea id="extraInfo" class="form-control" cols="30" rows="5"
+                placeholder="Incluya cualquier dato extra sobre el grafiti, su ubicación, autores, etc."></textarea>
+            </div>
+          </fieldset>
+          <div>
+            <button id="btn-prev-form2" type="button" class="btn-form btn btn-outline-dark">Anterior</button>
+            <button id="btn-next-form2" type="button" class="btn-form btn btn-outline-dark">Siguiente</button>
+          </div>
+        </form>
+        
+    <h6>Formulario de contacto</h6>
+  
+    <form id="contact-form">
+      <label for="name">Nombre:</label>
+      <input type="text" id="name" name="name"><br>
+
+      <label for="surname">Apellido:</label>
+      <input type="text" id="surname" name="surname"><br>
+
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email"><br>
+
+      <label for="message">Consulta:</label>
+      <textarea id="message" name="message"></textarea><br>
+
+      <button type="submit">Enviar consulta</button>
+    </form>
     </main>
 
     <footer>
