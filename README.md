@@ -1,8 +1,7 @@
 # aptpfinal
 TRABAJO PRACTICO FINAL -  ARGENTINA  PROGRAMA
 PROYECTO: DISEÑO WEB TEXAL TEXTIL
-
-CONTIRBUYENTES:
+![logotextil](https://user-images.githubusercontent.com/91204680/231712997-0fc173d9-487b-4db4-b8b0-5e693871e096.jpg)
 Luis Cendra
 Erica Rivarola
 
