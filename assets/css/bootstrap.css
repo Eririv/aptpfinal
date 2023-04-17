@@ -1987,7 +1987,7 @@ progress {
 .form-text {
   margin-top: 0.25rem;
   font-size: 0.875em;
-  color: #6c757d;
+  color: #6c7d72;
 }
 
 .form-control {
@@ -10918,6 +10918,22 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+
+footer {
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  column-gap: 4rem;
+}
+
+footer i {
+  color: rgb(47, 45, 45);
+  font-size: 28px;
+}
+
+footer i:hover {
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=bootstrap.css.map */
